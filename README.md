@@ -1,0 +1,2 @@
+# everlog
+Outputs logs, forever
