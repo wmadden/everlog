@@ -7,7 +7,7 @@ const ulyssesLines = readFileSync(
   `${cwd}/james-joyce-ulysses.txt`,
   "utf-8"
 ).split(/\r?\n/);
-const LOG_INTERVAL = 1000;
+const LOG_INTERVAL = 100;
 
 function main() {
   let i = 0;
